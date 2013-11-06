@@ -36,3 +36,19 @@ Add the following to your bash profile (.bash_profile or .profile files)
 
 PATH=$PATH:$HOME/Bayes/Python
 export KMP_AFFINITY=compact
+
+
+Download bayes.tgz and model.tgz into your home directory. Uncompress with
+
+tar xzf bayes.tgz
+tar xzf model.tgz
+
+= Compilation and Running =
+
+cd into the PLoS directory and type
+
+make
+
+then run the simulation with the command
+
+./ba1
